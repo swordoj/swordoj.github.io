@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion">
+<html class="theme-next pisces use-motion" lang="">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -229,6 +229,127 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/17/180817result/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="cdh233">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="233">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/17/180817result/" itemprop="url">180817</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-17T16:30:10+08:00">
+                2018-08-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="minamoto"><a href="#minamoto" class="headerlink" title="%%%minamoto"></a>%%%minamoto</h1><h2 id="Judge"><a href="#Judge" class="headerlink" title="%%%Judge"></a>%%%Judge</h2><p><img src="/180817.png"></p>
+<p><a href="/180817.pdf">题解？</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/15/好孩子不要看/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -300,7 +421,7 @@
       
         
           
-            <p><img src="/images/0.jpg"><br><img src="/images/1.jpg"></p>
+            <p><img src="/0.jpg"><br><img src="/1.jpg"></p>
 
           
         
@@ -420,7 +541,7 @@
       
         
           
-            <p>假装这个是swordoj的博客233<br><a href="https://swordoj.github.io/" target="_blank" rel="noopener">放些好图</a></p>
+            <p>假装这个是swordoj的博客233<br><a href="https://swordoj.github.io/2018/08/15/好孩子不要看" target="_blank" rel="noopener">放些好图</a></p>
 <h2 id="首先-大佬"><a href="#首先-大佬" class="headerlink" title="首先%大佬"></a>首先%大佬</h2><p><a style="color:rgb(255,0,0)" href="https://www.cnblogs.com/bztMinamoto" target="_blank" rel="noopener">ORZ minamoto</a><br><a style="color:rgb(255,0,0)" href="https://www.cnblogs.com/Judge" target="_blank" rel="noopener">ORZ Judge</a><br><a style="color:rgb(255,0,0)" href="https://www.cnblogs.com/Axjcy" target="_blank" rel="noopener">ORZ Axjcy</a></p>
 <h2 id="QAQ假装这是读优"><a href="#QAQ假装这是读优" class="headerlink" title="QAQ假装这是读优"></a>QAQ假装这是读优</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">getc</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> L = <span class="number">1</span>&lt;&lt;<span class="number">15</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">char</span> buf[L],*S=buf,*T=buf;</span><br><span class="line">    <span class="keyword">if</span>(S==T)&#123;</span><br><span class="line">        T=(S=buf)+fread(buf,<span class="number">1</span>,L,<span class="built_in">stdin</span>);</span><br><span class="line">        <span class="keyword">if</span>(S==T)<span class="keyword">return</span> EOF;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> *S++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">re</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> ch=<span class="number">0</span>; </span><br><span class="line">    <span class="keyword">bool</span> f=<span class="number">0</span>; </span><br><span class="line">    <span class="keyword">while</span>(!<span class="built_in">isdigit</span>(ch=getc())) <span class="keyword">if</span>(ch==’-‘) f=<span class="number">1</span>; </span><br><span class="line">    <span class="keyword">int</span> num=ch-‘<span class="number">0</span>’; </span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">isdigit</span>(ch=getc())) num=(num&lt;&lt;<span class="number">3</span>)+(num&lt;&lt;<span class="number">1</span>)+ch-‘<span class="number">0</span>’; </span><br><span class="line">    <span class="keyword">return</span> f?-num:num; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="QAQ假装还是读优"><a href="#QAQ假装还是读优" class="headerlink" title="QAQ假装还是读优"></a>QAQ假装还是读优</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> reg register</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fok (ch!=EOF)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sep (ch==<span class="meta-string">' '</span>||ch==<span class="meta-string">'\n'</span>||ch==<span class="meta-string">'\t'</span>)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> dsep !isdigit(ch)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> neq(a,b) ((a)-(b)&gt;1e-6)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">FastIO</span>&#123;</span></span><br><span class="line">    <span class="keyword">char</span> rbuf[<span class="number">1000002</span>],wbuf[<span class="number">1000002</span>],b,*p1,*p2;</span><br><span class="line">    <span class="keyword">int</span> rs,ws,S;</span><br><span class="line">    FastIO()&#123;p1=rbuf,p2=wbuf,S=<span class="number">1000000</span>,rs=<span class="number">1000000</span>,ws=<span class="number">-1</span>,b=<span class="number">1</span>;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">go</span><span class="params">()</span></span>&#123;fwrite(wbuf,<span class="number">1</span>,ws+<span class="number">1</span>,<span class="built_in">stdout</span>)?ws=<span class="number">-1</span>:<span class="number">0</span>;&#125;</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">char</span> <span class="title">getch</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> rs==S&amp;&amp;</span><br><span class="line">        (p1=rbuf,rs=<span class="number">-1</span>,(S=fread(rbuf,<span class="number">1</span>,S+<span class="number">1</span>,<span class="built_in">stdin</span>)<span class="number">-1</span>)==<span class="number">-1</span>)?</span><br><span class="line">        (b=<span class="number">0</span>,EOF):(++rs,*p1++);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">putch</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">        ws==<span class="number">1000000</span>&amp;&amp;</span><br><span class="line">        (p2=wbuf,ws=<span class="number">-1</span>,fwrite(wbuf,<span class="number">1</span>,<span class="number">1000001</span>,<span class="built_in">stdout</span>)),++ws,*p2++=x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">puts</span><span class="params">(<span class="keyword">char</span> str[])</span></span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(reg <span class="keyword">int</span> i=<span class="number">0</span>;str[i]!=<span class="string">'\0'</span>;)putch(str[i]),++i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">getline</span><span class="params">(<span class="built_in">string</span>&amp; s)</span></span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(reg <span class="keyword">char</span> ch;(ch=getch())!=<span class="string">'\n'</span>&amp;&amp;fok;)s+=ch;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&gt;&gt;(<span class="keyword">int</span>&amp; x)&#123;</span><br><span class="line">        x=<span class="number">0</span>;reg <span class="keyword">char</span> f=<span class="number">0</span>,ch=getch();</span><br><span class="line">        <span class="keyword">while</span>(dsep&amp;&amp;fok)f|=(ch==<span class="string">'-'</span>),ch=getch();</span><br><span class="line">        <span class="keyword">while</span>(<span class="built_in">isdigit</span>(ch))</span><br><span class="line">            x=(x&lt;&lt;<span class="number">1</span>)+(x&lt;&lt;<span class="number">3</span>)+(ch^<span class="number">48</span>),ch=getch();</span><br><span class="line">        <span class="keyword">return</span> x=f?-x:x,*<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&gt;&gt;(<span class="keyword">long</span> <span class="keyword">long</span>&amp; x)&#123;</span><br><span class="line">        x=<span class="number">0</span>;reg <span class="keyword">char</span> f=<span class="number">0</span>,ch=getch();</span><br><span class="line">        <span class="keyword">while</span>(dsep&amp;&amp;fok)f|=(ch==<span class="string">'-'</span>),ch=getch();</span><br><span class="line">        <span class="keyword">while</span>(<span class="built_in">isdigit</span>(ch))</span><br><span class="line">            x=(x&lt;&lt;<span class="number">1</span>)+(x&lt;&lt;<span class="number">3</span>)+(ch^<span class="number">48</span>),ch=getch();</span><br><span class="line">        <span class="keyword">return</span> x=f?-x:x,*<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&gt;&gt;(<span class="keyword">char</span>&amp; ch)&#123;<span class="keyword">return</span> ch=getch(),*<span class="keyword">this</span>;&#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&gt;&gt;(<span class="built_in">string</span>&amp; s)&#123;</span><br><span class="line">        reg <span class="keyword">char</span> ch=getch();</span><br><span class="line">        <span class="keyword">while</span>(sep&amp;&amp;fok)ch=getch();</span><br><span class="line">        <span class="keyword">while</span>(!sep&amp;&amp;fok)s+=ch,ch=getch();</span><br><span class="line">        <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&gt;&gt;(<span class="keyword">double</span>&amp; x)&#123;</span><br><span class="line">        x=<span class="number">0</span>;reg <span class="keyword">char</span> f=<span class="number">0</span>,ch=getch();</span><br><span class="line">        <span class="keyword">double</span> d=<span class="number">0.1</span>;</span><br><span class="line">        <span class="keyword">while</span>(dsep&amp;&amp;fok)f|=(ch==<span class="string">'-'</span>),ch=getch();</span><br><span class="line">        <span class="keyword">while</span>(<span class="built_in">isdigit</span>(ch))x=x*<span class="number">10</span>+(ch^<span class="number">48</span>),ch=getch();</span><br><span class="line">        <span class="keyword">if</span>(ch==<span class="string">'.'</span>)</span><br><span class="line">            <span class="keyword">while</span>(<span class="built_in">isdigit</span>(ch=getch()))x+=d*(ch^<span class="number">48</span>),d*=<span class="number">0.1</span>;</span><br><span class="line">        <span class="keyword">return</span> x=f?-x:x,*<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="keyword">int</span> x)&#123;</span><br><span class="line">        reg <span class="keyword">char</span> ch[<span class="number">10</span>],i=<span class="number">-1</span>;</span><br><span class="line">        !x?(putch(<span class="string">'0'</span>),<span class="number">0</span>):<span class="number">0</span>,</span><br><span class="line">        x&lt;<span class="number">0</span>?(putch(<span class="string">'-'</span>),x=-x):<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span>(x)ch[++i]=x%<span class="number">10</span>+<span class="number">48</span>,x/=<span class="number">10</span>;</span><br><span class="line">        <span class="keyword">while</span>(~i)putch(ch[i]),--i;</span><br><span class="line">        <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="keyword">long</span> <span class="keyword">long</span> x)&#123;</span><br><span class="line">        reg <span class="keyword">char</span> ch[<span class="number">20</span>],i=<span class="number">-1</span>;</span><br><span class="line">        !x?(putch(<span class="string">'0'</span>),<span class="number">0</span>):<span class="number">0</span>,</span><br><span class="line">        x&lt;<span class="number">0</span>?(putch(<span class="string">'-'</span>),x=-x):<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span>(x)ch[++i]=x%<span class="number">10</span>+<span class="number">48</span>,x/=<span class="number">10</span>;</span><br><span class="line">        <span class="keyword">while</span>(~i)putch(ch[i]),--i;</span><br><span class="line">        <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="keyword">char</span> ch)&#123;<span class="keyword">return</span> putch(ch),*<span class="keyword">this</span>;&#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="keyword">char</span> str[])&#123;<span class="keyword">return</span> <span class="built_in">puts</span>(str),*<span class="keyword">this</span>;&#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="built_in">string</span> s)&#123;</span><br><span class="line">        reg <span class="keyword">int</span> nn=s.size();</span><br><span class="line">        <span class="keyword">for</span>(reg <span class="keyword">int</span> i=<span class="number">0</span>;i&lt;nn;++i)putch(s[i]);</span><br><span class="line">        <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">inline</span> FastIO&amp; <span class="keyword">operator</span>&lt;&lt;(<span class="keyword">double</span> x)&#123;</span><br><span class="line">        <span class="keyword">int</span> y=<span class="keyword">int</span>(x);</span><br><span class="line">        *<span class="keyword">this</span>&lt;&lt;y;</span><br><span class="line">        x-=y;</span><br><span class="line">        <span class="keyword">while</span>(neq(x,<span class="keyword">int</span>(x)))x*=<span class="number">10</span>;</span><br><span class="line">        x?*<span class="keyword">this</span>&lt;&lt;<span class="string">'.'</span>&lt;&lt;<span class="keyword">int</span>(x):<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">operator</span> <span class="title">bool</span><span class="params">()</span></span>&#123;<span class="keyword">return</span> b;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
@@ -504,7 +625,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
